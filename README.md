@@ -30,25 +30,24 @@ AL-PAY is a secure and user-friendly payment application built with React Native
    cd AL-PAY
 
 2. **Backend Setup**
-
-# Navigate to backend directory
-cd backend_app
-# Install dependencies
-npm install
-# Set up your environment variables in .env file
-# Start the backend server
-npm start
+    Navigate to backend directory
+    cd backend_app
+    Install dependencies
+    npm install
+    Set up your environment variables in .env file
+     Start the backend server
+    npm start
 
 3.	**Frontend Setup**
+    Navigate to frontend directory
+    cd ../frontend
+    Install dependencies
+    npm install
+    Start the frontend server
+    npm start
 
-    # Navigate to frontend directory
-cd ../frontend
-# Install dependencies
-npm install
-# Start the frontend server
-npm start
-
-4.	**Run on Android/iOS**
+4.Run on Android/iOS
+Open the project in Android Studio or Xcode and run it on your device or emulator.
 	•	Android: npx react-native run-android
 	•	iOS: npx react-native run-ios
 
