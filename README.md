@@ -48,11 +48,13 @@ AL-PAY is a secure and user-friendly payment application built with React Native
     Start the frontend server
     npm start
 
-4.Run on Android/iOS
-Open the project in Android Studio or Xcode and run it on your device or emulator.
+4.  **Run on Android/iOS**
     ```bash
-	•	Android: npx react-native run-android
-	•	iOS: npx react-native run-ios
+    Open the project in  Android Studio or Xcode and run it on your device or emulator.
+	•	Android:
+     npx react-native run-android
+	•	iOS:
+     npx react-native run-ios
 
 Usage
 
