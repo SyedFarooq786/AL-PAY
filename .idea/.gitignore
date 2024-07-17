@@ -1,9 +1,9 @@
 # Dependency directories
-frontend/node_modules
-frontend/ios/Pods
-frontend/android/.gradle
-frontend/android/app/build
-frontend/android/build
+/node_modules
+/ios/Pods
+/android/.gradle
+/android/app/build
+/android/build
 # Default ignored files
 /shelf/
 /workspace.xml
