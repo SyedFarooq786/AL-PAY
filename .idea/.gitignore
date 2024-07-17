@@ -1,5 +1,6 @@
-# Dependency directories
+# ignore large  directories
 /node_modules
+/node_modules/react-native-reanimated/android/build
 /ios/Pods
 /android/.gradle
 /android/app/build
