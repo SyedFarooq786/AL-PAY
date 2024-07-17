@@ -15,9 +15,7 @@ app.use(bodyParser.json());
 
 // Routes
 const authRoutes = require('./routes/auth');
-// const userRoutes = require('./routes/user'); // Remove this if you don't have user.js in routes
 app.use('/api/auth', authRoutes);
-// app.use('/api/user', userRoutes); // Remove this if you don't have user.js in routes
 
 // Database connection
 mongoose.connect(process.env.MONGO_URI, {

@@ -23,19 +23,13 @@ router.post('/save-user-details', async (req, res) => {
   const { phoneNumber, callingCode, firstName, lastName, currencyCode } = req.body;
 
   try {
-    // Check if user already exists based on phoneNumber
-    const existingUser = await User.findOne({ phoneNumber });
-    if (existingUser) {
-      return res.status(400).json({ error: 'User already exists with this phone number.' });
-    }
-
     // Create a new user instance
     const newUser = new User({
       phoneNumber,
       callingCode,
       firstName,
       lastName,
-      currencyCode
+      currencyCode,
     });
 
     // Save the user to MongoDB
