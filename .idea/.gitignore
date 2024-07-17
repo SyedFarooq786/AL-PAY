@@ -5,6 +5,9 @@
 /android/.gradle
 /android/app/build
 /android/build
+/android
+/ios
+/.
 # Default ignored files
 /shelf/
 /workspace.xml
